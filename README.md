@@ -38,7 +38,7 @@ The order summary feature may not be accurate if the user listens to podcasts on
 ### Links
 
 - Solution URL: (https://github.com/aradradev/order-summary-component)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://master--gleeful-raindrop-9f0b4d.netlify.app/)
 
 ### Built with
 
