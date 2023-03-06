@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;900&display=swap');
+:root{
+    /* Primary */
+    --Pale-blue: hsl(225, 100%, 94%);
+    --No-pale-blue: hsl(212, 52%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+    /* Neutral */
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--Pale-blue);
+    background: url('images/pattern-background-desktop.svg') no-repeat;
+    background-color: var(--Pale-blue);
+    background-position: cover;
+    min-height: 100vh;
+    font-size: clamp(2rem 3rem + 1vw 6rem);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 30%;
+    /* margin-top: 3rem; */
+    padding: 4rem 4rem;
+}
+.cards{
+    text-align: center;
+}
+.card-img img{
+    border-radius: 1.5vw 1.5vw 0 0;
+    margin-bottom: -10px;
+}
+.card-text{
+    background-color: var(--Very-pale-blue);
+    border-radius: 0 0 1.5vw 1.5vw;
+    padding-top: 4rem;
+}
+.card-text h1{
+    margin-bottom: .5rem;
+    color: var(--Dark-blue);
+    font-weight: 900;
+}
+.card-text p{
+    opacity: .8;
+    font-size: 1.5vw;
+    margin-bottom: 2rem;
+}
+.container{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--No-pale-blue);
+    margin: 0 3rem;
+    border-radius: 1.5vw;
+    
+}
+.container img{
+    border-radius: 50%;
+}
+.small-title{
+    margin: 0 4vw 0 1vw;
+    margin-top: 1.4rem;
+}
+.small-title h4{
+    font-weight: 900;
+    color: var(--Dark-blue);
+}
+.small-title p{
+    font-size: 1rem;
+}
+.btn button{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1vw 5vw;
+    background-color: var(--Bright-blue);
+    outline: none;
+    border: 1px solid var(--Pale-blue);
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    color: var(--Pale-blue);
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn p{
+    opacity: .8;
+    font-size: clamp(1rem 3rem  + 1vw 6rem);
+    font-weight: 700;
+    padding-bottom: 3rem;
+
+}
+a{
+    text-decoration: none;
+    font-size: clamp(1.3vw 3vw + 1rem 6rem);
+    font-weight: 700;
+    border-bottom: 1px solid hsl(224, 81%, 47%);
+    color: hsl(224, 81%, 47%);
+}
+.attribution{
+    text-align: center;
+    color: var(--Dark-blue);
+    font-weight: 900;
+    font-size: clamp(1rem 3rem  + 1vw 6rem);
+}
