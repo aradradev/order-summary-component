@@ -113,3 +113,30 @@ a{
     font-weight: 900;
     font-size: clamp(1rem 3rem  + 1vw 6rem);
 }
+
+@media screen and (max-width: 450px) {
+    .body{
+        font-size: clamp(2rem, 3vw, 4rem);
+        text-align: center;
+        background: url('images/pattern-background-mobile.svg') no-repeat;
+        background-color: var(--Pale-blue);
+        background-position: cover;
+    }
+    .main{
+        max-width: min-content;
+        gap: 1rem;
+        flex-shrink: calc(22vw - 2rem);
+        padding: 0 35vw;
+        margin: 0;
+        justify-content: center;
+
+    }
+    p{
+        font-size: clamp(2rem, 3vw, 5rem);
+    }
+    .container{
+        margin: 0 auto;
+        min-width: auto;
+    }
+
+}
